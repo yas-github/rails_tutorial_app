@@ -1,3 +1,4 @@
+  # Add more helper methods to be used by all tests here...
 module UsersHelper
   def gravatar_for(user)
     gravatar_id = Digest::MD5::hexdigest(user.email.downcase)
